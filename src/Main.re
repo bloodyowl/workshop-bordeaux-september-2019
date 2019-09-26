@@ -6,6 +6,9 @@ module Styles = {
 };
 
 ReactDOMRe.renderToElementWithId(
-  <h1 className=Styles.title> "Todo app"->React.string </h1>,
+  <>
+    <h1 className=Styles.title> "Todo app"->React.string </h1>
+    <TodoApp />
+  </>,
   "root",
 );
